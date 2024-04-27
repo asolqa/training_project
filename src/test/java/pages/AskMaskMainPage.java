@@ -2,6 +2,7 @@ package pages;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 import pages.components.SubscriptionFormComponent;
 
 import static com.codeborne.selenide.Condition.*;
@@ -28,12 +29,14 @@ public class AskMaskMainPage {
     CatalogPage catalogPage = new CatalogPage();
     ProductPage productPage = new ProductPage();
 
+    @Step("Open AskMask main page")
     public AskMaskMainPage openPage() {
         open("/");
         logo.shouldBe(visible);
         return this;
     }
 
+    @Step("Checking elements on main page are loaded")
     public void verifyElementsAreLoaded() {
 
         mainMenu.shouldHave(text("Успей купить"));
@@ -44,7 +47,7 @@ public class AskMaskMainPage {
         blogArticles.shouldHave(text("Последнее в блоге"));
 
     }
-
+    @Step("Checking officially distributed brands are available in menu")
     public void verifyOfficialDistributionBrandsArePresented() {
 
         mainMenu.$(byText("Бренды")).hover();
@@ -55,12 +58,16 @@ public class AskMaskMainPage {
 
     }
 
+    @Step("Checking subscription is available")
     public void verifySubscription() {
 
         subscribeButton.click();
         subscriptionFormComponent.verifySubscriptionForm();
+        subscriptionFormComponent.verifySubscriptionError();
+        subscriptionFormComponent.verifyNoSubscriptionForm();
     }
 
+    @Step("Checking contacts page contains actual information")
     public void verifyContacts(){
 
         mainMenu.$(byText("Контакты")).click();
@@ -68,6 +75,7 @@ public class AskMaskMainPage {
 
     }
 
+    @Step("Searching for bestseller product")
     public void verifySearchForProduct() {
 
         searchField.setValue(productTitle).pressEnter();

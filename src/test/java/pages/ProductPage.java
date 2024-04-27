@@ -1,6 +1,7 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
@@ -13,6 +14,7 @@ public class ProductPage {
                                   String productTitle = "Dr. Ceuracle, Крем с витамином С";
 
 
+    @Step("Checking product details page")
     public void verifyProductPage() {
 
         pageTitle.shouldHave(text(productTitle));

@@ -1,13 +1,18 @@
 package tests;
 
+import io.qameta.allure.Feature;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.AskMaskMainPage;
 
-
+@Feature("Smoke Tests")
 public class AskMaskTests extends TestBase {
 
     AskMaskMainPage askMaskMainPage = new AskMaskMainPage();
 
+    @DisplayName("Main Page test")
+    @Tag("smoke")
     @Test
     public void mainPageElementsTest() {
 
@@ -15,15 +20,18 @@ public class AskMaskTests extends TestBase {
                 .verifyElementsAreLoaded();
     }
 
+    @DisplayName("Official brands test")
+    @Tag("smoke")
     @Test
     public void officialDistributionBrandsAreShownInMenuTest() {
-        //SelenideLogger.addListener("allure", new AllureSelenide());
 
         askMaskMainPage.openPage()
                 .verifyOfficialDistributionBrandsArePresented();
 
     }
 
+    @DisplayName("Contact Page test")
+    @Tag("smoke")
     @Test
     public void contactPageContainsActualInfoTest() {
 
@@ -31,14 +39,17 @@ public class AskMaskTests extends TestBase {
                 .verifyContacts();
     }
 
+    @DisplayName("Subscription test")
+    @Tag("smoke")
     @Test
     public void subscriptionAvailableTest() {
-
 
         askMaskMainPage.openPage()
                 .verifySubscription();
     }
 
+    @DisplayName("Search product test")
+    @Tag("smoke")
     @Test
     public void searchForProductTest() {
 

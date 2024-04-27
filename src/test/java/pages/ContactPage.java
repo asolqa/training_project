@@ -1,6 +1,7 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
@@ -12,6 +13,7 @@ public class ContactPage {
                                   map = $(".bx-yandex-view-map");
 
 
+    @Step("Checking contact page has data and map")
     public void verifyContactPageData() {
 
         pageTitle.shouldHave(text("Контакты"));

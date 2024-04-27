@@ -39,12 +39,12 @@ dependencies {
 
 test {
     useJUnitPlatform()
-    systemProperties(System.getProperties())
+    //systemProperties(System.getProperties())
 }
 
-/*tasks.withType(Test).configureEach {
+tasks.withType(Test).configureEach {
     useJUnitPlatform()
-    systemProperties(System.getProperties())
+   /// systemProperties(System.getProperties())
 
     testLogging {
         lifecycle {
@@ -54,17 +54,17 @@ test {
     }
 }
 
-tasks.register('regression_tests', Test) {
+/*tasks.register('regression_tests', Test) {
     useJUnitPlatform {
         includeTags("regression")
     }
-}
+}*/
 
-tasks.register('smoke_tests', Test) {
+tasks.register('askmask_smoke_tests', Test) {
     useJUnitPlatform {
         includeTags("smoke")
     }
-}*/
+}
 
 
 compileJava {
