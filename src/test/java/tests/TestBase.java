@@ -19,12 +19,6 @@ public class TestBase {
     @Step("Open https://askmask.ru")
     static void setUpConfig() {
 
-        /*Configuration.browserSize = "1920x1080";
-        Configuration.pageLoadStrategy = "eager";
-        Configuration.baseUrl = "https://askmask.ru";
-        open("https://askmask.ru");
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";*/
-
         Configuration.browser = System.getProperty("browser");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.browserVersion = System.getProperty("browserVersion", "120.0");
