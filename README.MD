@@ -24,7 +24,7 @@ brands in Russia
 
 <a id="tools"></a>
 ## Tools and technologies:
-<p align="center"> 
+
 <a href="https://www.jetbrains.com/idea/"><img src="./media/logo/Idea.svg" width="50" height="50"  alt="IDEA"/></a>  
 <a href="https://www.java.com/"><img src="./media/logo/java.svg" width="50" height="50"  alt="Java"/></a>  
 <a href="https://github.com/"><img src="./media/logo/github.svg" width="50" height="50"  alt="Github"/></a>  
@@ -36,7 +36,7 @@ brands in Russia
 <a href="https://qameta.io/"><img src="./media/logo/AllureTestOps.svg" width="50" height="50"  alt="Allure TestOps"/></a>   
 <a href="https://www.jenkins.io/"><img src="./media/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>  
 <a href="https://www.atlassian.com/ru/software/jira/"><img src="./media/logo/JIRA.svg" width="50" height="50"  alt="Jira"/></a>
-</p>
+
 
 <a id="scenarios"></a>
 ## Test Scenarios
@@ -46,7 +46,7 @@ brands in Russia
 * [x] Verify subscription is available 
 * [x] Verify search works as expected
 * [x] Verify blog page contains article about niacinamide
-* [x] Verify basket is empty on very first opening website
+* [x] Verify basket is empty when no products were added 
 
 <a id="jenkins"></a>
 ## <img alt="Jenkins" height="25" src="./media/logo/Jenkins.svg" width="25"/></a><a name="CI/CD with Jenkins"></a>CI/CD with [Jenkins](https://jenkins.autotests.cloud/job/26-asolqa-training_project/)</a>
@@ -88,7 +88,12 @@ clean ${TASK}
 
 <a id="telegram"></a>
 ## <img alt="Allure" height="25" src="./media/logo/Telegram.svg" width="25"/></a> Bot notifications in Telegram
-<img src="./media/reports/Telegram_screen.png"> 
+<img alt="Bot" src="./media/reports/Telegram_screen.png"> 
+
+<a id="video"></a>
+## <img alt="Selenoid" height="25" src="./media/logo/Selenoid.svg" width="25"/></a> Examples of test execution
+<img title="Video" src="./media/video/Subscription_video.gif" width="690" height="388"  alt="video"> 
+
 
 
 
