@@ -24,7 +24,7 @@ brands in Russia
 
 <a id="tools"></a>
 ## Tools and technologies:
-
+<p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="./media/logo/Idea.svg" width="50" height="50"  alt="IDEA"/></a>  
 <a href="https://www.java.com/"><img src="./media/logo/java.svg" width="50" height="50"  alt="Java"/></a>  
 <a href="https://github.com/"><img src="./media/logo/github.svg" width="50" height="50"  alt="Github"/></a>  
@@ -36,7 +36,7 @@ brands in Russia
 <a href="https://qameta.io/"><img src="./media/logo/AllureTestOps.svg" width="50" height="50"  alt="Allure TestOps"/></a>   
 <a href="https://www.jenkins.io/"><img src="./media/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>  
 <a href="https://www.atlassian.com/ru/software/jira/"><img src="./media/logo/JIRA.svg" width="50" height="50"  alt="Jira"/></a>
-
+</p>
 
 <a id="scenarios"></a>
 ## Test Scenarios
@@ -92,7 +92,7 @@ clean ${TASK}
 
 <a id="video"></a>
 ## <img alt="Selenoid" height="25" src="./media/logo/Selenoid.svg" width="25"/></a> Examples of test execution
-<img title="Video" src="./media/video/Subscription_video.gif" width="690" height="388"  alt="video"> 
+<img alt="Video" src="./media/video/Subscription_video.gif"> 
 
 
 
