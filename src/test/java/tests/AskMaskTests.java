@@ -53,5 +53,4 @@ public class AskMaskTests extends TestBase {
                 .verifySearchForProduct();
 
     }
-
 }

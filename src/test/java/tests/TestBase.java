@@ -16,10 +16,10 @@ import java.util.Map;
 public class TestBase {
 
     @BeforeAll
-    @Step("Open https://askmask.ru")
+    @Step("Configuring remote environment")
     static void setUpConfig() {
 
-        Configuration.browser = System.getProperty("browser");
+        Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.browserVersion = System.getProperty("browserVersion", "120.0");
         Configuration.pageLoadStrategy = "eager";
@@ -35,7 +35,6 @@ public class TestBase {
         Configuration.browserCapabilities = capabilities;
 
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-
     }
 
 
