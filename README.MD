@@ -53,11 +53,11 @@ brands in Russia
 
 ### Jenkins parameters:
 
-- TASK (all tests will be launched by askmask_smoke_test by default)
-- BROWSER (browser, chrome by default)
-- BROWSER_VERSION (version of browser, 120 by default)
-- BROWSER_SIZE (browser windows size, 1920x1080 by default)
-- WD_HOST (login, password and URL of remote Selenoid server)
+- `TASK` (all tests will be launched by askmask_smoke_test by default)
+- `BROWSER` (browser, chrome by default)
+- `BROWSER_VERSION` (version of browser, 120 by default)
+- `BROWSER_SIZE` (browser windows size, 1920x1080 by default)
+- `WD_HOST` (login, password and URL of remote Selenoid server)
 
 <a id="cli"></a>
 ## Launch from the CLI
