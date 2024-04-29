@@ -53,14 +53,14 @@ brands in Russia
 
 ### Jenkins parameters:
 
-- `TASK` (all tests will be launched by askmask_smoke_test by default)
-- `BROWSER` (browser, chrome by default)
-- `BROWSER_VERSION` (version of browser, 120 by default)
-- `BROWSER_SIZE` (browser windows size, 1920x1080 by default)
-- `WD_HOST` (login, password and URL of remote Selenoid server)
+- `TASK` (all tests will be launched by `askmask_smoke_test` by default)
+- `BROWSER` (browser, `chrome` by default)
+- `BROWSER_VERSION` (version of browser, `120` by default)
+- `BROWSER_SIZE` (browser windows size, `1920x1080` by default)
+- `WD_HOST` (data of remote Selenoid server)
 
 <a id="cli"></a>
-## Launch from the CLI
+## <img alt="Allure" height="25" src="./media/logo/Run.png" width="25"/> Launch from the CLI
 
 ***Local launch:***
 ```bash  
@@ -69,11 +69,7 @@ brands in Russia
 
 ***Remote Jenkins launch:***
 ```bash  
-clean ${TASK}
-"-Dbrowser=${BROWSER}"
-"-DbrowserVersion=${BROWSER_VERSION}"
-"-DbrowserSize=${BROWSER_SIZE}"
-"-DwdHost=${WD_HOST}"
+clean ${TASK} -Dbrowser=${BROWSER} -DbrowserVersion=${BROWSER_VERSION} -DbrowserSize=${BROWSER_SIZE} -DwdHost=${WD_HOST}
 ```
 
 <a id="allure"></a>
