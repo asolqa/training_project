@@ -51,7 +51,7 @@ brands in Russia
 <a id="jenkins"></a>
 ## <img alt="Jenkins" height="25" src="./media/logo/Jenkins.svg" width="25"/></a><a name="CI/CD with Jenkins"></a>CI/CD with [Jenkins](https://jenkins.autotests.cloud/job/26-asolqa-training_project/)</a>
 
-### **Jenkins parameters:**
+### Jenkins parameters:
 
 - *task (all tests will be launched by askmask_smoke_test by default)*
 - *browser (browser, chrome by default)*
