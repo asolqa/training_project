@@ -78,14 +78,20 @@ clean ${TASK}
 
 <a id="allure"></a>
 ## <img alt="Allure" height="25" src="./media/logo/Allure.svg" width="25"/></a> <a name="Allure"></a>Allure [reporting](https://jenkins.autotests.cloud/job/26-asolqa-training_project/allure/)</a>
-
+Allure report includes:
+- Test steps
+- Screenshot of the page at the last step
+- Page Source
+- Browser console logs
+- Video of the automated test
 
 <a id="allure-testops"></a>
 ## <img alt="Allure" height="25" src="./media/logo/AllureTestOps.svg" width="25"/></a> Integration with <a target="_blank" href="https://allure.autotests.cloud/project/4206/dashboards">Allure TestOps</a>
-
+Test execution results are available in `Allure TestOps`. Dashboard contains all test runs statistics.
 
 <a id="jira"></a>
 ## <img alt="Allure" height="25" src="./media/logo/JIRA.svg" width="25"/></a> Integration with <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1202">Jira</a>
+`Jira` task has information about all test cases, their statuses and test launches results:
 
 <a id="telegram"></a>
 ## <img alt="Allure" height="25" src="./media/logo/Telegram.svg" width="25"/></a> Bot notifications in Telegram
