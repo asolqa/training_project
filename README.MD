@@ -60,7 +60,7 @@ brands in Russia
 - `WD_HOST` (data of remote Selenoid server)
 
 <a id="cli"></a>
-## <img alt="Allure" height="25" src="./media/logo/Run.png" width="25"/> Launch from the CLI
+## <img alt="cli" src="./media/logo/Run.png"> Launch from the CLI
 
 ***Local launch:***
 ```bash  
