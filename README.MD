@@ -14,7 +14,7 @@ brands in Russia
 - <a href="#tools">Tools and technologies</a>
 - <a href="#scenarios">Test scenarios</a>
 - <a href="#jenkins">CI/CD with Jenkins</a>
-- <a href="#cli">Запуск из терминала</a>
+- <a href="#cli">Launch from the CLI</a>
 - <a href="#allure">Allure reporting</a>
 - <a href="#allure-testops">Integration with Allure TestOps</a>
 - <a href="#jira">Integration with JIRA</a>
