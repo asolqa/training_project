@@ -62,12 +62,12 @@ brands in Russia
 <a id="cli"></a>
 ## <img alt="cli" height="25" src="./media/logo/run.png" width="25"> Launch from the CLI
 
-***Local launch:***
+**Local launch:**
 ```bash  
 ./gradlew clean askmask_smoke_test
 ```
 
-***Remote Jenkins launch:***
+**Remote Jenkins launch:**
 ```bash  
 clean ${TASK} -Dbrowser=${BROWSER} -DbrowserVersion=${BROWSER_VERSION} -DbrowserSize=${BROWSER_SIZE} -DwdHost=${WD_HOST}
 ```
