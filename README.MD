@@ -84,7 +84,7 @@ clean ${TASK}
 ## <img alt="Allure" height="25" src="./media/logo/AllureTestOps.svg" width="25"/></a> Integration with <a target="_blank" href="https://allure.autotests.cloud/project/4206/dashboards">Allure TestOps</a>
 
 <a id="jira"></a>
-## <img alt="Allure" height="25" src="./media/logo/JIRA.svg" width="25"/></a> Integration with с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1202">Jira</a>
+## <img alt="Allure" height="25" src="./media/logo/JIRA.svg" width="25"/></a> Integration with <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1202">Jira</a>
 
 <a id="telegram"></a>
 ## <img alt="Allure" height="25" src="./media/logo/Telegram.svg" width="25"/></a> Bot notifications in Telegram
