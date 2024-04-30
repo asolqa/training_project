@@ -50,6 +50,7 @@ brands in Russia
 
 <a id="jenkins"></a>
 ## <img alt="Jenkins" height="25" src="./media/logo/Jenkins.svg" width="25"/></a><a name="CI/CD with Jenkins"></a>CI/CD with [Jenkins](https://jenkins.autotests.cloud/job/26-asolqa-training_project/)</a>
+<img alt="Jenkins" src="./media/reports/Jenkins.png"> 
 
 ### Jenkins parameters:
 
@@ -74,23 +75,38 @@ clean ${TASK} -Dbrowser=${BROWSER} -DbrowserVersion=${BROWSER_VERSION} -Dbrowser
 
 <a id="allure"></a>
 ## <img alt="Allure" height="25" src="./media/logo/Allure.svg" width="25"/></a> <a name="Allure"></a>Allure [reporting](https://jenkins.autotests.cloud/job/26-asolqa-training_project/allure/)</a>
-Allure report includes:
+<img alt="Allure" src="./media/reports/AllureReportExample.png"> 
+
+`Allure` report includes:
 - Test steps
 - Screenshot of the page at the last step
 - Page Source
 - Browser console logs
-- Video of the automated test
+- Video of execution for automated tests
+
+<img alt="Allure2" src="./media/reports/AllureReportExample2.png">
 
 <a id="allure-testops"></a>
 ## <img alt="Allure" height="25" src="./media/logo/AllureTestOps.svg" width="25"/></a> Integration with <a target="_blank" href="https://allure.autotests.cloud/project/4206/dashboards">Allure TestOps</a>
-Test execution results are available in `Allure TestOps`. Dashboard contains all test runs statistics.
+All test cases and execution results are available in `Allure TestOps`. Dashboard contains test runs statistics:
+<img alt="Dashboard" src="./media/reports/Dashboard.png">
+Automated cases:
+<img alt="Cases1" src="./media/reports/AutomatedCases.png">
+Manual cases:
+<img alt="Cases2" src="./media/reports/ManualCases.png">
+Launches:
+<img alt="Launch" src="./media/reports/Launches.png">
+
+
 
 <a id="jira"></a>
 ## <img alt="Allure" height="25" src="./media/logo/JIRA.svg" width="25"/></a> Integration with <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1202">Jira</a>
-`Jira` task has information about all test cases, their statuses and test launches results:
+`Jira` task has information about all created test cases, their statuses and test launches results:
+<img alt="JIRA" src="./media/reports/JIRA.png">
 
 <a id="telegram"></a>
 ## <img alt="Allure" height="25" src="./media/logo/Telegram.svg" width="25"/></a> Bot notifications in Telegram
+After every build Telegram bot sends notification with `Allure` report:
 <img alt="Bot" src="./media/reports/Telegram_screen.png"> 
 
 <a id="video"></a>
