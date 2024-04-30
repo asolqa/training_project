@@ -106,7 +106,8 @@ Launches:
 <a id="jira"></a>
 ## <img alt="Allure" height="25" src="./media/logo/JIRA.svg" width="25"/></a> Integration with <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1202">Jira</a>
 
-`Jira` task has information about all created test cases, their statuses and test launches results:
+`Jira` task has information about all created test cases, their statuses and test launches results from `Allure TestOps`:
+
 <img alt="JIRA" src="./media/reports/JIRA.png">
 
 <a id="telegram"></a>
