@@ -88,12 +88,16 @@ clean ${TASK} -Dbrowser=${BROWSER} -DbrowserVersion=${BROWSER_VERSION} -Dbrowser
 
 <a id="allure-testops"></a>
 ## <img alt="Allure" height="25" src="./media/logo/AllureTestOps.svg" width="25"/></a> Integration with <a target="_blank" href="https://allure.autotests.cloud/project/4206/dashboards">Allure TestOps</a>
+
 All test cases and execution results are available in `Allure TestOps`. Dashboard contains test runs statistics:
 <img alt="Dashboard" src="./media/reports/Dashboard.png">
+
 Automated cases:
 <img alt="Cases1" src="./media/reports/AutomatedCases.png">
+
 Manual cases:
 <img alt="Cases2" src="./media/reports/ManualCases.png">
+
 Launches:
 <img alt="Launch" src="./media/reports/Launches.png">
 
@@ -101,6 +105,7 @@ Launches:
 
 <a id="jira"></a>
 ## <img alt="Allure" height="25" src="./media/logo/JIRA.svg" width="25"/></a> Integration with <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1202">Jira</a>
+
 `Jira` task has information about all created test cases, their statuses and test launches results:
 <img alt="JIRA" src="./media/reports/JIRA.png">
 
